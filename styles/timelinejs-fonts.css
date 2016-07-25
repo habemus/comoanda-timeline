@@ -10,6 +10,25 @@
 /* TimelineJS - ver. 3.3.16 - 2016-05-31 Copyright (c) 2012-2016 Northwestern University a project of the Northwestern University Knight Lab, originally created by Zach Wise https://github.com/NUKnightLab/TimelineJS3 This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 @import 'https://fonts.googleapis.com/css?family=News+Cycle:400,700';
 /* @import url(//fonts.googleapis.com/css?family=Droid+Sans:400,700|Abril+Fatface); */
+
+/**
+ * Terrorista font face
+ */
+@font-face{
+  font-family: "Terrorista";
+  src: url("/resources/fonts/TerroristaMarighella/terrorista-marighella.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Terrorista";
+  src: url("/resources/fonts/TerroristaMarighella/terrorista-marighella.woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 .tl-timeline{
     font-family:'News Cycle',sans-serif;
     font-weight:400;
@@ -17,12 +36,13 @@
     line-height:1.3em
 }
 .tl-timeline h1,.tl-timeline h2,.tl-timeline h3,.tl-timeline h4,.tl-timeline h5,.tl-timeline h6{
-    font-family:'News Cycle',sans-serif;
+    font-family:"Terrorista", 'News Cycle',sans-serif;
     text-transform:none;
     font-weight:700;
     font-size:46px;
     line-height:46px
 }
+
 .tl-timeline h2.tl-headline-title{
     font-size:58px;
     line-height:58px
@@ -57,7 +77,7 @@
     line-height:1.3em !important
 }
 .tl-timeline .tl-headline-date,.tl-timeline h3.tl-headline-date{
-    font-family:'News Cycle',sans-serif !important;
+    font-family: 'News Cycle',sans-serif;
     font-weight:normal !important;
     text-transform:none !important
 }

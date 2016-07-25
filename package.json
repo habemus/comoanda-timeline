@@ -1,0 +1,23 @@
+{
+  "name": "timeline",
+  "version": "0.0.0",
+  "description": "Timelinejs has no bower support. https://github.com/NUKnightLab/TimelineJS3.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habemus/comoanda-timeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habemus/comoanda-timeline/issues"
+  },
+  "homepage": "https://github.com/habemus/comoanda-timeline#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0"
+  }
+}

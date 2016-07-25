@@ -1,0 +1,58 @@
+@import './timelinejs3-variables.less';
+
+@import '../bower_components/TimelineJS3/source/less/TL.Timeline.Base.less';
+
+body {
+  margin: 0 0;
+  background-color: #A1B5B5;
+}
+
+#timeline {
+  width: 100vw;
+  height: 100vh;
+}
+
+/**
+ * The slide
+ */
+.tl-slider-container-mask {
+  background-color: #A1B5B5;
+}
+
+/**
+ * Headlines
+ */
+.tl-text h2.tl-headline,
+.tl-skinny .tl-text h2.tl-headline, 
+.tl-text h3.tl-headline-date,
+.tl-skinny .tl-text h3.tl-headline-date {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.tl-text p {
+  color: black;
+}
+.tl-text-content blockquote {
+  color: black;
+} 
+
+.tl-text .tl-headline-date,
+.tl-text h3.tl-headline-date{
+    font-family:"Terrorista", 'News Cycle',sans-serif;
+}
+
+
+/**
+ * The marker flag
+ */
+.tl-timemarker .tl-timemarker-content-container {
+  background-color: white;
+  box-shadow: none;
+}
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
+  background-color: black;
+}
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+  color: white;
+}
